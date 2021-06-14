@@ -33,7 +33,7 @@ jobs:
 #       - name: Create zipped vendor directory
 #         uses: montudor/action-zip@v0.1.0
 #         with:
-          args: zip -qq -r ./vendor.zip ./vendor
+#           args: zip -qq -r ./vendor.zip ./vendor
       
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
